@@ -1,0 +1,68 @@
+.box {
+  box-shadow: 2px;
+  border-radius: 5px;
+  padding: 17px 19px;
+  border-radius: 10px;
+  border-radius: 24.65px;
+  border: 1px solid var(--foundation-primary-white-dark-hover, #959697);
+}
+.img {
+  border-radius: 16.433px;
+  background: lightgray 50% / cover no-repeat;
+  width: 433px;
+  height: 308px;
+  flex-shrink: 0;
+  margin-bottom: 16px;
+}
+
+.h1 {
+  color: var(--Secondary-1, #334a55);
+
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 67.2px */
+}
+.h2 {
+  color: var(--Secondary, #ff7d29);
+
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.p {
+  color: var(--Foundation-Secondary-2-Normal, #758888);
+  margin-bottom: 50px;
+
+  width: 314px;
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 26.4px */
+}
+
+.btn {
+  background: var(--Primary, #00b047);
+  display: flex;
+  width: 350px;
+  padding: 16px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.cart-h1 {
+  color: var(--Secondary-1, #334a55);
+
+  /* Headding/H3 */
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 35.2px */
+}
