@@ -31,7 +31,7 @@ const BannerFeature = () => {
     },
   ];
   return (
-    <div className="mx-24">
+    <div className="mx-24 font-IbmPlexSans">
       <div className="container  bg-white  shadow-lg  mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 p-2">
         {features.map((feature) => (
           <div
@@ -47,7 +47,9 @@ const BannerFeature = () => {
               <h2 className="text-[15.734px] font-semibold text-gray-800">
                 {feature.heading}
               </h2>
-              <p className="text-gray-600 mt-2">{feature.paragraph}</p>
+              <p className="text-gray-600 mt-2 font-IbmPlexSans ">
+                {feature.paragraph}
+              </p>
             </div>
           </div>
         ))}

@@ -13,7 +13,7 @@ const TopRestaurants = () => {
   }, []);
 
   return (
-    <div className="mb-24">
+    <div className="mb-24 font-IbmPlexSans">
       <div className="flex justify-between items-center">
         <div>
           <h1 className="h1">

@@ -6,7 +6,7 @@ const TopResCart = ({ topRestaurant }) => {
   const { image, name, location, details } = topRestaurant;
   return (
     <div>
-      <div className="box">
+      <div className="box font-IbmPlexSans  ">
         <img src={image} alt="" className="img" />
 
         <div className="flex justify-between">
