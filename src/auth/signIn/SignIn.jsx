@@ -19,12 +19,12 @@ const SignIn = () => {
             Sign In
           </h1>
 
-          <div className=" grid-cols-1 grid gap-3 mx-auto  ">
+          <div className=" grid-cols-1 grid gap-3 mx-auto rounded-sm ">
             <input
               type="email"
               placeholder="Email"
               name="Email"
-              className=" border-black border p-2 "
+              className=" border-black border p-2 rounded-lg"
               required
             />
 
@@ -33,7 +33,7 @@ const SignIn = () => {
                 type="password"
                 placeholder="Password"
                 name="password"
-                className=" border-black border py-2 pl-2 pr-0 flex-1 "
+                className=" border-black rounded-lg border py-2 pl-2 pr-0 flex-1 "
                 required
               />
               <BsEye className="-ml-8  " />
@@ -53,7 +53,10 @@ const SignIn = () => {
           </div>
         </form>
         <h1 className="text-center mt-5">
-          Don’t have account? <Link className="font-semibold">Register</Link>{" "}
+          Don’t have account?{" "}
+          <Link to="/register" className="font-semibold">
+            Register
+          </Link>{" "}
         </h1>
       </div>
     </div>
