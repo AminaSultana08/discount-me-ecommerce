@@ -1,6 +1,7 @@
 import React from "react";
 import signin from "../../assets/signin.jpg";
 import { BsEye } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -58,6 +59,12 @@ const Register = () => {
             </button>
           </div>
         </form>
+        <h1 className="text-center mt-5">
+          Already have an account?{" "}
+          <Link to="/signin" className="font-semibold">
+            Login
+          </Link>{" "}
+        </h1>
       </div>
     </div>
   );
